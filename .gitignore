@@ -1,0 +1,7 @@
+.bash_history
+.bash_logout
+.erlang.cookie
+.profile
+.ssh/id_rsa*
+.ssh/known_hosts
+.viminfo

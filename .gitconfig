@@ -1,0 +1,15 @@
+[user]
+    name = Dmitry Rozhkov
+    email = dmitry.rojkov@gmail.com
+
+[diff]
+    color = auto
+
+[pager]
+    color = true
+
+[status]
+    color = auto
+
+[apply]
+    whitespace = strip

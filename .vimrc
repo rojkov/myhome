@@ -15,14 +15,12 @@ au BufWinEnter *.py let w:m2=matchadd('LineTooLong', '\%>80v.\+', -1)
 
 au BufNewFile,BufRead *.mustache  setf mustache
 
-" colorscheme darkblue
-
-" игнорировать регистр при поиске
+" ignore case when searching
 set ic
 
-" подсвечивать поиск
+" highlight search results
 set hls
-" использовать инкрементальный поиск
+" use incremental search
 set is
 
 set ts=4
@@ -31,10 +29,8 @@ set expandtab
 
 set numberwidth=5
 set number
-":hi LineNr guifg=white guibg=darkgreen
-":hi LineNr ctermfg=white ctermbg=darkgreen
 :hi LineNr guibg=black
-:hi LineNr ctermbg=black 
+:hi LineNr ctermbg=black
 
 "source /usr/share/vim/addons/ftplugin/python_bike.vim
 source ~/.vim/ftplugin/python_editing.vim
@@ -58,8 +54,6 @@ set showmatch		" Show matching brackets.
 "set autowrite		" Automatically save before commands like :next and :make
 
 set modeline
-
-set guifont=Monospace\ 9
 
 " --------------------
 " ShowMarks

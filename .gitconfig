@@ -1,6 +1,6 @@
 [user]
     name = Dmitry Rozhkov
-    email = dmitry.rojkov@gmail.com
+    email = dmitry.rozhkov@jolla.com
 
 [diff]
     color = auto
@@ -13,3 +13,10 @@
 
 [apply]
     whitespace = strip
+[credential]
+	helper = cache
+[color]
+	ui = auto
+
+[alias]
+    hgp = "show -M -C --binary --format=\"# HG changeset patch%n# User %an <%ae>%n%B\" -U8"

@@ -75,7 +75,7 @@ let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$']
 let NERDTreeShowBookmarks=1
 map <F3> :NERDTreeToggle<CR>
 
-map <F7> :Grep 
-let Grep_Skip_Files = '*.bak *~ *.pyc' 
+map <F7> :Grep
+let Grep_Skip_Files = '*.bak *~ *.pyc'
 let Grep_Skip_Dirs = 'debian'
-let Grep_Default_Options = '-r' 
+let Grep_Default_Options = '-r'

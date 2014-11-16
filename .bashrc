@@ -102,3 +102,5 @@ fi
 
 . ~/.nvm/nvm.sh
 [[ -r $NVM_DIR/bash_completion ]] && . $NVM_DIR/bash_completion
+
+export PATH=~/.cabal/bin:$PATH

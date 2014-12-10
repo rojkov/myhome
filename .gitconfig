@@ -20,3 +20,5 @@
 
 [alias]
     hgp = "show -M -C --binary --format=\"# HG changeset patch%n# User %an <%ae>%n%B\" -U8"
+[grep]
+    lineNumber = true

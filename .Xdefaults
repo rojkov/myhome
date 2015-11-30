@@ -1,0 +1,9 @@
+xterm*utf8: 1
+/*
+xterm*font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-*
+*/
+xterm*faceName: Monospace:size=10:antialias=false
+xterm*SaveLines: 10000
+
+xterm*ScrollBar: false
+xterm*ScrollKey: true

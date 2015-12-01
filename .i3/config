@@ -154,3 +154,6 @@ bar {
 # Assignments
 #   Firefox to 1st workspace
 assign [class="Firefox"] 1
+
+# Monitors and workspaces
+workspace 1 output DFP1

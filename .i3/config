@@ -157,3 +157,6 @@ assign [class="Firefox"] 1
 
 # Monitors and workspaces
 workspace 1 output DFP1
+
+# Start up programs
+exec --no-startup-id nm-applet

@@ -1,2 +1,2 @@
 colorscheme darkblue
-set guifont=Monospace\ 9
+set guifont=Liberation\ Mono\ 14
